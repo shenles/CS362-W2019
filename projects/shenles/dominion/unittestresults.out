@@ -1,0 +1,159 @@
+-------- Testing Smithy Card -------
+-------Test 1: correct hand size------
+FAILED TEST 
+hand count = 6, expected = 7
+-------Test 2: correct deck size------
+FAILED TEST 
+deck count = 3, expected = 2
+-------Test 3: correct discard size------
+FAILED TEST 
+discard count = 0, expected = 1
+-------Test 4: ensure no effect on other player hand----
+PASSED TEST 
+other player hand count = 0, expected = 0
+-------Test 5: ensure no effect on other player deck------
+PASSED TEST 
+other player deck count = 10, expected = 10
+------Test 6: ensure no effect on victory card piles-----
+------checking estate pile-----
+PASSED TEST 
+------checking duchy pile-----
+PASSED TEST 
+------checking province pile-----
+PASSED TEST 
+------Test 7: ensure no effect on kingdom card piles-----
+------checking all piles-----
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+-------- Testing Adventurer Card -------
+-----Test 0: correct treasure amount-----
+FAILED TEST 
+treasure in hand = 7, expected = 6
+-------Test 1: correct hand size------
+FAILED TEST 
+hand count = 8, expected = 6
+-------Test 2: correct deck size------
+FAILED TEST 
+deck count = 2, expected = 3
+-------Test 3: correct discard size------
+FAILED TEST 
+discard count = 0, expected = 1
+-------Test 4: ensure no effect on other player hand----
+PASSED TEST 
+other player hand count = 0, expected = 0
+-------Test 5: ensure no effect on other player deck------
+PASSED TEST 
+other player deck count = 10, expected = 10
+------Test 6: ensure no effect on victory card piles-----
+------checking estate pile-----
+PASSED TEST 
+------checking duchy pile-----
+PASSED TEST 
+------checking province pile-----
+PASSED TEST 
+------Test 7: ensure no effect on kingdom card piles-----
+------checking all piles-----
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+-------- Testing Great Hall Card -------
+------Test 0: correct num of actions------
+PASSED TEST 
+num actions = 2, expected = 2
+-------Test 1: correct hand size------
+FAILED TEST 
+hand count = 6, expected = 5
+-------Test 2: correct deck size------
+PASSED TEST 
+deck count = 4, expected = 4
+-------Test 3: correct discard size------
+FAILED TEST 
+discard count = 0, expected = 1
+-------Test 4: ensure no effect on other player hand----
+PASSED TEST 
+other player hand count = 0, expected = 0
+-------Test 5: ensure no effect on other player deck------
+PASSED TEST 
+other player deck count = 10, expected = 10
+------Test 6: ensure no effect on victory card piles-----
+------checking estate pile-----
+PASSED TEST 
+------checking duchy pile-----
+PASSED TEST 
+------checking province pile-----
+PASSED TEST 
+------Test 7: ensure no effect on kingdom card piles-----
+------checking all piles-----
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+-------- Testing Village Card -------
+------Test 0: correct num of actions------
+FAILED TEST 
+num actions = 2, expected = 3
+-------Test 1: correct hand size------
+PASSED TEST 
+hand count = 5, expected = 5
+-------Test 2: correct deck size------
+PASSED TEST 
+deck count = 4, expected = 4
+-------Test 3: correct discard size------
+FAILED TEST 
+discard count = 0, expected = 1
+-------Test 4: ensure no effect on other player hand----
+PASSED TEST 
+other player hand count = 0, expected = 0
+-------Test 5: ensure no effect on other player deck------
+PASSED TEST 
+other player deck count = 10, expected = 10
+------Test 6: ensure no effect on victory card piles-----
+------checking estate pile-----
+PASSED TEST 
+------checking duchy pile-----
+PASSED TEST 
+------checking province pile-----
+PASSED TEST 
+------Test 7: ensure no effect on kingdom card piles-----
+------checking all piles-----
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+-----Testing UpdateCoins--------
+PASSED TEST 
+coins = 4, expected = 4
+File 'dominion.c'
+Lines executed:15.62% of 557
+Branches executed:15.35% of 417
+Taken at least once:12.23% of 417
+Calls executed:7.45% of 94
+Creating 'dominion.c.gcov'
+
