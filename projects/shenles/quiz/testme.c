@@ -5,14 +5,22 @@
 
 char inputChar()
 {
-    // TODO: rewrite this function
-    return ' ';
+    // pick random character from space to closing curly brace 
+    return rand() % ('}' - ' ' + 1) + ' ';
 }
 
 char *inputString()
 {
-    // TODO: rewrite this function
-    return "";
+    // begin with string "rrrrr" 
+    static char randomString[6];
+    strcpy(randomString, "rrrrr");
+    // randomly pick letters and replace the string
+    // to get a random string
+    int k;
+    for (k=0; k<5; k++) {
+        randomString[k] = rand() % ('t' - 'e' + 1) + 'e'; 
+    } 
+    return randomString;
 }
 
 void testme()
@@ -42,8 +50,9 @@ void testme()
        && s[4] == 't' && s[5] == '\0'
        && state == 9)
     {
-      printf("error ");
-      exit(200);
+       printf("error ");
+       //exit(200);
+       break;
     }
   }
 }
