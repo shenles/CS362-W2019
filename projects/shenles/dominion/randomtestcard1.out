@@ -1,59 +1,35 @@
 Checking player 0
-FAILED TEST: hand count = -1, expected = 0
-FAILED TEST: deck count = 0, expected = -1
-FAILED TEST: discard count = 0, expected = 1
-FAILED TEST: action count = 1, expected = 2
-PASSED TEST: estate supply count = 0, expected = 0
-PASSED TEST: duchy supply count = 0, expected = 0
-PASSED TEST: province supply count = 0, expected = 0
-Checking player 0
 PASSED TEST: hand count = 5, expected = 5
 PASSED TEST: deck count = 4, expected = 4
 FAILED TEST: discard count = 0, expected = 1
 FAILED TEST: action count = 2, expected = 3
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
+PASSED TEST: estate supply count = 8, expected = 8
+PASSED TEST: duchy supply count = 8, expected = 8
+PASSED TEST: province supply count = 8, expected = 8
 Checking player 1
 PASSED TEST: hand count = 0, expected = 0
 PASSED TEST: deck count = 9, expected = 9
 FAILED TEST: discard count = 0, expected = 1
 PASSED TEST: action count = 3, expected = 3
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
-Checking player 2
-PASSED TEST: hand count = 0, expected = 0
-PASSED TEST: deck count = 9, expected = 9
-FAILED TEST: discard count = 0, expected = 1
-FAILED TEST: action count = 4, expected = 3
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
+PASSED TEST: estate supply count = 8, expected = 8
+PASSED TEST: duchy supply count = 8, expected = 8
+PASSED TEST: province supply count = 8, expected = 8
 Checking player 0
 PASSED TEST: hand count = 5, expected = 5
 PASSED TEST: deck count = 4, expected = 4
 FAILED TEST: discard count = 0, expected = 1
 FAILED TEST: action count = 2, expected = 3
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
+PASSED TEST: estate supply count = 8, expected = 8
+PASSED TEST: duchy supply count = 8, expected = 8
+PASSED TEST: province supply count = 8, expected = 8
 Checking player 1
 PASSED TEST: hand count = 0, expected = 0
 PASSED TEST: deck count = 9, expected = 9
 FAILED TEST: discard count = 0, expected = 1
 PASSED TEST: action count = 3, expected = 3
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
-Checking player 2
-PASSED TEST: hand count = 0, expected = 0
-PASSED TEST: deck count = 9, expected = 9
-FAILED TEST: discard count = 0, expected = 1
-FAILED TEST: action count = 4, expected = 3
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
+PASSED TEST: estate supply count = 8, expected = 8
+PASSED TEST: duchy supply count = 8, expected = 8
+PASSED TEST: province supply count = 8, expected = 8
 Checking player 0
 PASSED TEST: hand count = 5, expected = 5
 PASSED TEST: deck count = 4, expected = 4
@@ -83,6 +59,14 @@ PASSED TEST: hand count = 0, expected = 0
 PASSED TEST: deck count = 9, expected = 9
 FAILED TEST: discard count = 0, expected = 1
 FAILED TEST: action count = 5, expected = 3
+PASSED TEST: estate supply count = 12, expected = 12
+PASSED TEST: duchy supply count = 12, expected = 12
+PASSED TEST: province supply count = 12, expected = 12
+Checking player 0
+PASSED TEST: hand count = 5, expected = 5
+PASSED TEST: deck count = 3, expected = 3
+FAILED TEST: discard count = 0, expected = 1
+FAILED TEST: action count = 6, expected = 7
 PASSED TEST: estate supply count = 12, expected = 12
 PASSED TEST: duchy supply count = 12, expected = 12
 PASSED TEST: province supply count = 12, expected = 12
@@ -149,7 +133,7 @@ Function 'getCost'
 Lines executed:0.00% of 30
 
 Function 'drawCard'
-Lines executed:77.27% of 22
+Lines executed:36.36% of 22
 
 Function 'getWinners'
 Lines executed:0.00% of 24
@@ -185,10 +169,10 @@ Function 'playCard'
 Lines executed:0.00% of 14
 
 Function 'shuffle'
-Lines executed:100.00% of 16
+Lines executed:93.75% of 16
 
 Function 'initializeGame'
-Lines executed:85.48% of 62
+Lines executed:95.16% of 62
 
 Function 'kingdomCards'
 Lines executed:0.00% of 13
@@ -200,6 +184,6 @@ Function 'compare'
 Lines executed:83.33% of 6
 
 File 'dominion.c'
-Lines executed:21.01% of 557
+Lines executed:20.29% of 557
 Creating 'dominion.c.gcov'
 

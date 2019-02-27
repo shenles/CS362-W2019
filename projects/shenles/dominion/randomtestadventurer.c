@@ -25,6 +25,29 @@ int main() {
     int seed;
     struct gameState game, testgame;
     int k[10] = {adventurer, embargo, village, minion, mine, cutpurse, sea_hag, tribute, smithy, council_room};
+    int whichArr;
+    whichArr = rand() % 4;
+    if (whichArr == 3) { 
+        k[0] = outpost;
+        k[2] = treasure_map;
+        k[8] = ambassador; 
+        k[4] = feast;
+        k[3] = gardens; 
+    }
+    else if (whichArr == 1) {
+       k[1] = great_hall;
+       k[2] = remodel;
+       k[3] = gardens;
+       k[6] = ambassador;
+       k[7] = treasure_map;
+    } else if (whichArr == 2) {
+       k[2] = remodel;
+       k[4] = feast;
+       k[5] = salvager;
+       k[6] = outpost;
+       k[9] = steward;
+    }
+
     seed = rand() % 100;
     int currtest, expectedHandCt, expectedDeckCt, expectedDiscardCt;
     int nonTreasDrawn;
