@@ -5,6 +5,8 @@
 #include <time.h>
 #include <stdlib.h>
 #include <assert.h>
+#include <string.h>
+#include <math.h>
 
 #define NUM_RUNS 10 
 

@@ -1,201 +1,152 @@
 Checking player 0
-FAILED TEST: hand count = 7, expected = 6
-FAILED TEST: deck count = 0, expected = 2
-FAILED TEST: discard count = 3, expected = 2
+FAILED TEST: hand count = 8, expected = 6
+FAILED TEST: deck count = 1, expected = 3
+PASSED TEST: discard count = 1, expected = 1
 PASSED TEST: estate supply count = 8, expected = 8
 PASSED TEST: duchy supply count = 8, expected = 8
 PASSED TEST: province supply count = 8, expected = 8
 Checking player 1
 FAILED TEST: hand count = 3, expected = 1
 FAILED TEST: deck count = 7, expected = 8
-FAILED TEST: discard count = 0, expected = 2
+FAILED TEST: discard count = 0, expected = 1
 PASSED TEST: estate supply count = 8, expected = 8
 PASSED TEST: duchy supply count = 8, expected = 8
 PASSED TEST: province supply count = 8, expected = 8
 Checking player 0
-FAILED TEST: hand count = 7, expected = 6
-FAILED TEST: deck count = 0, expected = 2
-PASSED TEST: discard count = 3, expected = 3
+PASSED TEST: hand count = 8, expected = 8
+FAILED TEST: deck count = 0, expected = -2
+FAILED TEST: discard count = 2, expected = 4
+PASSED TEST: estate supply count = 8, expected = 8
+PASSED TEST: duchy supply count = 8, expected = 8
+PASSED TEST: province supply count = 8, expected = 8
+Checking player 0
+PASSED TEST: hand count = 8, expected = 8
+FAILED TEST: deck count = 0, expected = -3
+FAILED TEST: discard count = 2, expected = 7
+PASSED TEST: estate supply count = 8, expected = 8
+PASSED TEST: duchy supply count = 8, expected = 8
+PASSED TEST: province supply count = 8, expected = 8
+Checking player 0
+FAILED TEST: hand count = 8, expected = 6
+FAILED TEST: deck count = 1, expected = 3
+FAILED TEST: discard count = 1, expected = 5
+PASSED TEST: estate supply count = 8, expected = 8
+PASSED TEST: duchy supply count = 8, expected = 8
+PASSED TEST: province supply count = 8, expected = 8
+Checking player 1
+FAILED TEST: hand count = 3, expected = 1
+FAILED TEST: deck count = 7, expected = 8
+FAILED TEST: discard count = 0, expected = 5
+PASSED TEST: estate supply count = 8, expected = 8
+PASSED TEST: duchy supply count = 8, expected = 8
+PASSED TEST: province supply count = 8, expected = 8
+Checking player 0
+FAILED TEST: hand count = 8, expected = 6
+FAILED TEST: deck count = 1, expected = 3
+FAILED TEST: discard count = 1, expected = 5
 PASSED TEST: estate supply count = 12, expected = 12
 PASSED TEST: duchy supply count = 12, expected = 12
 PASSED TEST: province supply count = 12, expected = 12
 Checking player 1
 FAILED TEST: hand count = 3, expected = 1
 FAILED TEST: deck count = 7, expected = 8
-FAILED TEST: discard count = 0, expected = 3
+FAILED TEST: discard count = 0, expected = 5
 PASSED TEST: estate supply count = 12, expected = 12
 PASSED TEST: duchy supply count = 12, expected = 12
 PASSED TEST: province supply count = 12, expected = 12
 Checking player 2
 FAILED TEST: hand count = 3, expected = 1
-FAILED TEST: deck count = 5, expected = 6
-FAILED TEST: discard count = 2, expected = 5
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
-Checking player 3
-FAILED TEST: hand count = 3, expected = 1
-FAILED TEST: deck count = 4, expected = 8
-FAILED TEST: discard count = 3, expected = 5
+FAILED TEST: deck count = 7, expected = 8
+FAILED TEST: discard count = 0, expected = 5
 PASSED TEST: estate supply count = 12, expected = 12
 PASSED TEST: duchy supply count = 12, expected = 12
 PASSED TEST: province supply count = 12, expected = 12
 Checking player 0
-FAILED TEST: hand count = 7, expected = 6
-FAILED TEST: deck count = 0, expected = 2
-FAILED TEST: discard count = 3, expected = 6
+FAILED TEST: hand count = 8, expected = 6
+FAILED TEST: deck count = 1, expected = 3
+FAILED TEST: discard count = 1, expected = 5
+PASSED TEST: estate supply count = 8, expected = 8
+PASSED TEST: duchy supply count = 8, expected = 8
+PASSED TEST: province supply count = 8, expected = 8
+Checking player 1
+FAILED TEST: hand count = 3, expected = 1
+FAILED TEST: deck count = 7, expected = 8
+FAILED TEST: discard count = 0, expected = 5
+PASSED TEST: estate supply count = 8, expected = 8
+PASSED TEST: duchy supply count = 8, expected = 8
+PASSED TEST: province supply count = 8, expected = 8
+Checking player 0
+FAILED TEST: hand count = 8, expected = 6
+FAILED TEST: deck count = 1, expected = 3
+FAILED TEST: discard count = 1, expected = 5
 PASSED TEST: estate supply count = 12, expected = 12
 PASSED TEST: duchy supply count = 12, expected = 12
 PASSED TEST: province supply count = 12, expected = 12
 Checking player 1
 FAILED TEST: hand count = 3, expected = 1
 FAILED TEST: deck count = 7, expected = 8
-FAILED TEST: discard count = 0, expected = 6
+FAILED TEST: discard count = 0, expected = 5
 PASSED TEST: estate supply count = 12, expected = 12
 PASSED TEST: duchy supply count = 12, expected = 12
 PASSED TEST: province supply count = 12, expected = 12
 Checking player 2
 FAILED TEST: hand count = 3, expected = 1
-FAILED TEST: deck count = 5, expected = 6
+FAILED TEST: deck count = 7, expected = 8
+FAILED TEST: discard count = 0, expected = 5
+PASSED TEST: estate supply count = 12, expected = 12
+PASSED TEST: duchy supply count = 12, expected = 12
+PASSED TEST: province supply count = 12, expected = 12
+Checking player 0
+PASSED TEST: hand count = 8, expected = 8
+FAILED TEST: deck count = 0, expected = -2
 FAILED TEST: discard count = 2, expected = 8
 PASSED TEST: estate supply count = 12, expected = 12
 PASSED TEST: duchy supply count = 12, expected = 12
 PASSED TEST: province supply count = 12, expected = 12
-Checking player 3
-FAILED TEST: hand count = 3, expected = 1
-FAILED TEST: deck count = 4, expected = 8
-FAILED TEST: discard count = 3, expected = 8
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
 Checking player 0
-FAILED TEST: hand count = 7, expected = 6
-FAILED TEST: deck count = 0, expected = 2
-FAILED TEST: discard count = 3, expected = 9
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
-Checking player 1
-FAILED TEST: hand count = 3, expected = 1
-FAILED TEST: deck count = 7, expected = 8
-FAILED TEST: discard count = 0, expected = 9
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
-Checking player 2
-FAILED TEST: hand count = 3, expected = 1
-FAILED TEST: deck count = 5, expected = 6
-FAILED TEST: discard count = 2, expected = 11
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
-Checking player 0
-FAILED TEST: hand count = 7, expected = 6
-FAILED TEST: deck count = 0, expected = 2
-FAILED TEST: discard count = 3, expected = 12
+FAILED TEST: hand count = 8, expected = 6
+FAILED TEST: deck count = 1, expected = 3
+FAILED TEST: discard count = 1, expected = 7
 PASSED TEST: estate supply count = 8, expected = 8
 PASSED TEST: duchy supply count = 8, expected = 8
 PASSED TEST: province supply count = 8, expected = 8
 Checking player 1
 FAILED TEST: hand count = 3, expected = 1
 FAILED TEST: deck count = 7, expected = 8
-FAILED TEST: discard count = 0, expected = 12
+FAILED TEST: discard count = 0, expected = 7
 PASSED TEST: estate supply count = 8, expected = 8
 PASSED TEST: duchy supply count = 8, expected = 8
 PASSED TEST: province supply count = 8, expected = 8
 Checking player 0
-FAILED TEST: hand count = 7, expected = 6
-FAILED TEST: deck count = 0, expected = 2
-FAILED TEST: discard count = 3, expected = 13
+FAILED TEST: hand count = 8, expected = 6
+FAILED TEST: deck count = 1, expected = 3
+FAILED TEST: discard count = 1, expected = 7
 PASSED TEST: estate supply count = 12, expected = 12
 PASSED TEST: duchy supply count = 12, expected = 12
 PASSED TEST: province supply count = 12, expected = 12
 Checking player 1
 FAILED TEST: hand count = 3, expected = 1
 FAILED TEST: deck count = 7, expected = 8
-FAILED TEST: discard count = 0, expected = 13
+FAILED TEST: discard count = 0, expected = 7
 PASSED TEST: estate supply count = 12, expected = 12
 PASSED TEST: duchy supply count = 12, expected = 12
 PASSED TEST: province supply count = 12, expected = 12
 Checking player 2
-FAILED TEST: hand count = 3, expected = 1
-FAILED TEST: deck count = 5, expected = 6
-FAILED TEST: discard count = 2, expected = 15
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
-Checking player 0
-PASSED TEST: hand count = 7, expected = 7
-FAILED TEST: deck count = 0, expected = -4
-FAILED TEST: discard count = 3, expected = 21
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
-Checking player 0
-PASSED TEST: hand count = 7, expected = 7
-FAILED TEST: deck count = 0, expected = -4
-FAILED TEST: discard count = 3, expected = 24
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
-Checking player 0
-FAILED TEST: hand count = 7, expected = 6
-FAILED TEST: deck count = 0, expected = 2
-FAILED TEST: discard count = 3, expected = 22
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
-Checking player 1
 FAILED TEST: hand count = 3, expected = 1
 FAILED TEST: deck count = 7, expected = 8
-FAILED TEST: discard count = 0, expected = 22
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
-Checking player 2
-FAILED TEST: hand count = 3, expected = 1
-FAILED TEST: deck count = 5, expected = 6
-FAILED TEST: discard count = 2, expected = 24
+FAILED TEST: discard count = 0, expected = 7
 PASSED TEST: estate supply count = 12, expected = 12
 PASSED TEST: duchy supply count = 12, expected = 12
 PASSED TEST: province supply count = 12, expected = 12
 Checking player 3
 FAILED TEST: hand count = 3, expected = 1
-FAILED TEST: deck count = 4, expected = 8
-FAILED TEST: discard count = 3, expected = 24
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
-Checking player 0
-FAILED TEST: hand count = 7, expected = 6
-FAILED TEST: deck count = 0, expected = 2
-FAILED TEST: discard count = 3, expected = 25
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
-Checking player 1
-FAILED TEST: hand count = 3, expected = 1
-FAILED TEST: deck count = 7, expected = 8
-FAILED TEST: discard count = 0, expected = 25
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
-Checking player 2
-FAILED TEST: hand count = 3, expected = 1
 FAILED TEST: deck count = 5, expected = 6
-FAILED TEST: discard count = 2, expected = 27
-PASSED TEST: estate supply count = 12, expected = 12
-PASSED TEST: duchy supply count = 12, expected = 12
-PASSED TEST: province supply count = 12, expected = 12
-Checking player 3
-FAILED TEST: hand count = 3, expected = 1
-FAILED TEST: deck count = 4, expected = 8
-FAILED TEST: discard count = 3, expected = 27
+FAILED TEST: discard count = 2, expected = 9
 PASSED TEST: estate supply count = 12, expected = 12
 PASSED TEST: duchy supply count = 12, expected = 12
 PASSED TEST: province supply count = 12, expected = 12
 Function 'updateCoins'
-Lines executed:63.64% of 11
+Lines executed:81.82% of 11
 
 Function 'gainCard'
 Lines executed:0.00% of 13
@@ -276,6 +227,6 @@ Function 'compare'
 Lines executed:83.33% of 6
 
 File 'dominion.c'
-Lines executed:22.08% of 557
+Lines executed:22.44% of 557
 Creating 'dominion.c.gcov'
 
