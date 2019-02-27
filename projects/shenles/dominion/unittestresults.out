@@ -150,10 +150,18 @@ PASSED TEST
 -----Testing UpdateCoins--------
 PASSED TEST 
 coins = 4, expected = 4
+-----Testing IsGameOver--------
+PASSED TEST 
+PASSED TEST 
+PASSED TEST 
+-----Testing handCard--------
+PASSED TEST 
+-----Testing numHandCards--------
+PASSED TEST 
 File 'dominion.c'
-Lines executed:15.62% of 557
+Lines executed:16.34% of 557
 Branches executed:15.35% of 417
 Taken at least once:12.23% of 417
-Calls executed:7.45% of 94
+Calls executed:8.51% of 94
 Creating 'dominion.c.gcov'
 
