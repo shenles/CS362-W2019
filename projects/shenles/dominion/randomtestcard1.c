@@ -8,7 +8,7 @@
 #include <string.h>
 #include <math.h>
 
-#define NUM_RUNS 1 
+#define NUM_RUNS 5 
 
 void myAssert(int myCondition) {
 
