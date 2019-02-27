@@ -21,13 +21,7 @@ testBuyCard: testDrawCard.c dominion.o rngs.o
 testAll: dominion.o testSuite.c
 	gcc -o testSuite testSuite.c -g  dominion.o rngs.o $(CFLAGS)
 
-randomtestresults: randomtestcard1.c randomtestcard2.c randomtestadventurer.c dominion.o
-	gcc -o randomtestcard1 dominion.c rngs.c randomtestcard1.c $(CFLAGS)
-	./randomtestcard1 > randomtestcard1.out
-	gcov -f dominion.c >> randomtestcard1.out
-	gcc -o randomtestcard2 dominion.c rngs.c randomtestcard2.c $(CFLAGS)
-	./randomtestcard2 > randomtestcard2.out
-	gcov -f dominion.c >> randomtestcard2.out
+randomtestresults: randomtestadventurer.c dominion.o
 	gcc -o randomtestadventurer dominion.c rngs.c randomtestadventurer.c $(CFLAGS)
 	./randomtestadventurer > randomtestadventurer.out
 	gcov -f dominion.c >> randomtestadventurer.out
@@ -47,4 +41,4 @@ player: player.c interface.o
 all: playdom player 
 
 clean:
-	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe randomtestcard1 randomtestcard2 randomtestadventurer
+	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe randomtestadventurer
