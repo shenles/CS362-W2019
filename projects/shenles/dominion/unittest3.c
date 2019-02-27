@@ -15,39 +15,26 @@ void myAssert(int myCondition) {
     }
 }
 
-void testUpdateCoins() {
+void testHandCard() {
 
-    int bonus=0;
     int seed=1000;
     int numPlayers=2;
-    int currPlayer=0;
     struct gameState game, testgame;
     int k[10] = {adventurer, embargo, village, minion, mine, cutpurse, sea_hag, tribute, smithy, council_room};
     initializeGame(numPlayers, k, seed, &game);
     int currtest=0;
-    int expectedCoins=0;
-    printf("-----Testing UpdateCoins--------\n");
+    int expected=0;
+    printf("-----Testing handCard--------\n");
     memcpy(&testgame, &game, sizeof(struct gameState));
-    updateCoins(currPlayer, &testgame, bonus);
-
-    for (int j=0; j<game.handCount[currPlayer]; j++) {
-        if (game.hand[currPlayer][j] == copper) {
-            expectedCoins += 1;
-        }
-        else if (game.hand[currPlayer][j] == silver) {
-            expectedCoins += 2;
-        }
-        else if (game.hand[currPlayer][j] == gold) {
-            expectedCoins += 3;
-        }
-    }
-    currtest = testgame.coins == expectedCoins;
+    testgame.whoseTurn = 1;
+    testgame.hand[1][2] = 2;
+    expected = 2;
+    currtest = handCard(2, &testgame) == expected;
     myAssert(currtest);
-    printf("coins = %d, expected = %d\n", testgame.coins, expectedCoins);
 
 }
 
 int main () {
-    testUpdateCoins();
+    testHandCard();
     return 0;
 }
