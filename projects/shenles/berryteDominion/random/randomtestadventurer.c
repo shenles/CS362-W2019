@@ -52,7 +52,7 @@ int main() {
     int currtest, expectedHandCt, expectedDeckCt, expectedDiscardCt;
     int nonTreasDrawn;
     int numRevealed;
-    int drawntreasure, drawnTreasCt, actualTreas, expectedTreas;
+    int drawnTreasCt, actualTreas, expectedTreas;
     int decksize, handsize, discardsize, thisDraw;
     int run;
     int pl;
@@ -62,7 +62,6 @@ int main() {
         memcpy(&game, &testgame, sizeof(struct gameState));
         int temphand[MAX_HAND];
         for (pl=0; pl < numPlayers; pl++) {
-            drawntreasure=0;
             drawnTreasCt=0;
             actualTreas=0;
             expectedTreas=0;
@@ -93,7 +92,7 @@ int main() {
                }
             }
                 
-            adventurerEffect(drawntreasure, &testgame, currPlayer, temphand);
+            playAdventurer(&testgame, currPlayer, temphand);
 
             for (int m=0; m<testgame.handCount[currPlayer]; m++) {
                if (testgame.hand[currPlayer][m] == copper || testgame.hand[currPlayer][m] == silver || testgame.hand[currPlayer][m] == gold) {
